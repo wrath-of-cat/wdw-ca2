@@ -1,0 +1,84 @@
+body {
+  background: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #111;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+header {
+  text-align: center;
+  padding: 40px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.profile-pic {
+  float: right;
+  margin: 20px;
+}
+
+/* Skills page */
+.skills-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px;
+}
+
+.card {
+  background: #222;
+  border: 2px solid #555;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Contact page */
+form {
+  max-width: 400px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
